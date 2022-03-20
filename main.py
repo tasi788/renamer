@@ -23,6 +23,7 @@ def dongdongiscat():
         if not args.dry_run:
             rename(file, new_name)
         print(f'{file} -> {new_name}')
+        args.episode += 1
 
 
 parser = argparse.ArgumentParser(description='a')
