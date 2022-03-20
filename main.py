@@ -1,4 +1,3 @@
-from distutils import extension
 from glob import glob
 import argparse
 from os import rename
