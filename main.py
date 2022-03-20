@@ -4,7 +4,7 @@ from os import rename
 
 
 def dongdongiscat():
-    files = glob(f'*.{args.extension}')
+    files = sorted(glob(f'*.{args.extension}'))
     if not files:
         print('file list empty.')
     print('file list below')
